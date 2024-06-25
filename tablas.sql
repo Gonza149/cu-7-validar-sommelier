@@ -4,7 +4,9 @@ CREATE TABLE sommelier (
     nro_documento BIGINT NOT NULL,
     telefono BIGINT NOT NULL,
     email VARCHAR(50) NOT NULL,
-    sommelierValidado BOOLEAN
+    notapresentacion VARCHAR(200) NOT NULL,
+    sommelierValidado BOOLEAN,
+    fechavalidacion DATE NOT NULL
 );
 
 CREATE TABLE certificacion (
