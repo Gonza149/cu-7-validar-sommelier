@@ -1,0 +1,188 @@
+[
+    {
+        "model": "sommelier.sommelier",
+        "pk": 1,
+        "fields": {
+            "nombre": "Juan Pérez",
+            "nro_documento": 123456789,
+            "telefono": 987654321,
+            "email": "juan.perez@example.com",
+            "sommeliervalidado": true
+        }
+    },
+    {
+        "model": "sommelier.sommelier",
+        "pk": 2,
+        "fields": {
+            "nombre": "María López",
+            "nro_documento": 987654321,
+            "telefono": 123456789,
+            "email": "maria.lopez@example.com",
+            "sommeliervalidado": false
+        }
+    },
+    {
+        "model": "sommelier.sommelier",
+        "pk": 3,
+        "fields": {
+            "nombre": "Carlos García",
+            "nro_documento": 1122334455,
+            "telefono": 1122334455,
+            "email": "carlos.garcia@example.com",
+            "sommeliervalidado": true
+        }
+    },
+    {
+        "model": "sommelier.sommelier",
+        "pk": 4,
+        "fields": {
+            "nombre": "Ana Torres",
+            "nro_documento": 5566778899,
+            "telefono": 9988776655,
+            "email": "ana.torres@example.com",
+            "sommeliervalidado": true
+        }
+    },
+    {
+        "model": "sommelier.sommelier",
+        "pk": 5,
+        "fields": {
+            "nombre": "Luis Martínez",
+            "nro_documento": 123123123,
+            "telefono": 321321321,
+            "email": "luis.martinez@example.com",
+            "sommeliervalidado": false
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 1,
+        "fields": {
+            "url": "https://example.com/certificaciones/1",
+            "nombre": "Certificación de Vinos",
+            "descripcion": "Una certificación completa sobre vinos.",
+            "fechainicio": "2023-01-15",
+            "fechafin": "2023-06-15",
+            "institucion": "Instituto del Vino",
+            "sommelier": 1
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 2,
+        "fields": {
+            "url": "https://example.com/certificaciones/2",
+            "nombre": "Certificación de Cata",
+            "descripcion": "Certificación avanzada en cata de vinos.",
+            "fechainicio": "2023-03-01",
+            "fechafin": "2023-09-01",
+            "institucion": "Escuela de Sommeliers",
+            "sommelier": 2
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 3,
+        "fields": {
+            "url": "https://example.com/certificaciones/3",
+            "nombre": "Certificación en Vinos Espumosos",
+            "descripcion": "Especialización en vinos espumosos.",
+            "fechainicio": "2023-02-20",
+            "fechafin": "2023-08-20",
+            "institucion": "Academia de Vinos",
+            "sommelier": 1
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 4,
+        "fields": {
+            "url": "https://example.com/certificaciones/4",
+            "nombre": "Certificación en Maridaje",
+            "descripcion": "Certificación sobre maridaje de vinos.",
+            "fechainicio": "2023-04-10",
+            "fechafin": "2023-10-10",
+            "institucion": "Instituto Gourmet",
+            "sommelier": 3
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 5,
+        "fields": {
+            "url": "https://example.com/certificaciones/5",
+            "nombre": "Certificación de Sommelier",
+            "descripcion": "Certificación integral para sommeliers.",
+            "fechainicio": "2023-05-01",
+            "fechafin": "2023-11-01",
+            "institucion": "Escuela de Sommeliers",
+            "sommelier": 4
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 6,
+        "fields": {
+            "url": "https://example.com/certificaciones/6",
+            "nombre": "Certificación de Vinos Orgánicos",
+            "descripcion": "Especialización en vinos orgánicos.",
+            "fechainicio": "2023-06-15",
+            "fechafin": "2023-12-15",
+            "institucion": "Academia Ecológica",
+            "sommelier": 5
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 7,
+        "fields": {
+            "url": "https://example.com/certificaciones/7",
+            "nombre": "Certificación en Vinos Rosados",
+            "descripcion": "Certificación sobre vinos rosados.",
+            "fechainicio": "2023-07-01",
+            "fechafin": "2024-01-01",
+            "institucion": "Instituto del Vino",
+            "sommelier": 3
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 8,
+        "fields": {
+            "url": "https://example.com/certificaciones/8",
+            "nombre": "Certificación en Vinos Tintos",
+            "descripcion": "Especialización en vinos tintos.",
+            "fechainicio": "2023-08-15",
+            "fechafin": "2024-02-15",
+            "institucion": "Escuela de Sommeliers",
+            "sommelier": 4
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 9,
+        "fields": {
+            "url": "https://example.com/certificaciones/9",
+            "nombre": "Certificación en Historia del Vino",
+            "descripcion": "Certificación sobre la historia y evolución del vino.",
+            "fechainicio": "2023-09-10",
+            "fechafin": "2024-03-10",
+            "institucion": "Academia de Vinos",
+            "sommelier": 2
+        }
+    },
+    {
+        "model": "sommelier.certificacion",
+        "pk": 10,
+        "fields": {
+            "url": "https://example.com/certificaciones/10",
+            "nombre": "Certificación en Vinos Blancos",
+            "descripcion": "Especialización en vinos blancos.",
+            "fechainicio": "2023-10-05",
+            "fechafin": "2024-04-05",
+            "institucion": "Instituto del Vino",
+            "sommelier": 5
+        }
+    }
+]
+

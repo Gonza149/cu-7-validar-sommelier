@@ -2,9 +2,6 @@ from django.contrib import admin
 from sommelier.models import *
 
 # Register your models here.
-admin.site.register(Resenia)
-
-
 
 class CertificacionInline(admin.TabularInline):
     model = Certificacion
