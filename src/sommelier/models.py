@@ -159,7 +159,9 @@ class Sommelier(models.Model):
     nro_documento = models.BigIntegerField()
     telefono = models.BigIntegerField()
     email = models.CharField(max_length=50)
+    notapresentacion = models.CharField(max_length=200)
     sommeliervalidado = models.BooleanField(blank=True, null=True)
+    fechavalidacion = models.DateField()
 
     def sommeliervalidado_display(self):
         return self.sommeliervalidado

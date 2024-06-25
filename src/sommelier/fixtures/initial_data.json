@@ -7,7 +7,9 @@
             "nro_documento": 123456789,
             "telefono": 987654321,
             "email": "juan.perez@example.com",
-            "sommeliervalidado": true
+            "notapresentacion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
+            "sommeliervalidado": true,
+            "fechavalidacion": null
         }
     },
     {
@@ -18,7 +20,9 @@
             "nro_documento": 987654321,
             "telefono": 123456789,
             "email": "maria.lopez@example.com",
-            "sommeliervalidado": false
+            "notapresentacion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
+            "sommeliervalidado": false,
+            "fechavalidacion": null
         }
     },
     {
@@ -29,7 +33,9 @@
             "nro_documento": 1122334455,
             "telefono": 1122334455,
             "email": "carlos.garcia@example.com",
-            "sommeliervalidado": true
+            "notapresentacion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
+            "sommeliervalidado": true,
+            "fechavalidacion": null
         }
     },
     {
@@ -40,7 +46,9 @@
             "nro_documento": 5566778899,
             "telefono": 9988776655,
             "email": "ana.torres@example.com",
-            "sommeliervalidado": true
+            "notapresentacion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
+            "sommeliervalidado": true,
+            "fechavalidacion": null
         }
     },
     {
@@ -51,7 +59,9 @@
             "nro_documento": 123123123,
             "telefono": 321321321,
             "email": "luis.martinez@example.com",
-            "sommeliervalidado": false
+            "notapresentacion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
+            "sommeliervalidado": false,
+            "fechavalidacion": null
         }
     },
     {
